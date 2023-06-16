@@ -1,0 +1,203 @@
+html{
+    font-size: 16px;
+    background-color: #F5F5F5;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+button{
+    all: unset;
+}
+.modal{
+    
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #00000060;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+textarea{
+    width: 50%;
+    padding: 1em;
+    height: auto;
+    margin-bottom: 1em;
+    padding: auto 0;
+    
+}
+.sett{
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.sett button{
+    padding: 1em 1.5em;
+    font-size: .7em;
+    border-radius: 7px; 
+    color: white;
+}
+.cancel{
+    
+    background-color: #E45A5A;
+
+}
+.complete center{
+    color: white;
+    background-color: #5AE478;
+
+}
+.cancel center{
+    
+    color: white;
+}
+.update{
+    background-color: #5A8CE4;
+}
+.search-container{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center ;
+    margin-bottom: 1em;
+}
+
+.TITLE{
+ 
+    margin: 0 auto;
+}
+.search-container-inner{
+    width: 50%;
+}
+.search-form{
+    display: flex;
+   
+}
+.icon-holder{
+    background-color: #99B5EC;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-form input{
+  
+    width: 90%;
+    border: none;
+    padding: 1em;  
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.add-icon{
+    width: 30%;
+    height: 30%;
+}
+.filter{
+    display: flex;
+    justify-content: center;
+    margin-top: .8em ;
+    color: white;
+    flex-wrap: wrap;
+}
+.filter button{
+    margin-right:2em ;
+    padding: .8em;
+    margin-bottom: 1em;
+    width: 7em;
+    border-radius: 8px;
+    font-size: .6rem;
+    border: 1px #5A8CE4 solid;
+  
+    color:  #5A8CE4 ;
+}
+
+.active center{
+    color: white;
+}
+.active{
+    background-color:  #5A8CE4 ;
+  
+}
+.filter button:hover{
+    background-color:   #5A8CE4  ;
+}
+
+.filter button:hover center{
+   color: white  ;
+}
+
+.filter button:last-child:hover {
+    background-color:   #E45A5A  ;
+}
+
+.filter button:last-child:hover center{
+    color:   white  ;
+}
+.todo-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.todo-list form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: fit-content;
+    margin-bottom: 5em;
+} 
+.task{
+    margin-bottom: 1em;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 2em;
+    background-color: #E45A5A  ;
+    border-radius: 20px;
+}
+.ediranddelete{
+    margin-left: auto;
+    display: flex;
+    height: 100%;
+    flex-wrap: wrap;
+    width: 20%;
+    
+}
+.ediranddelete svg{
+    margin: 1em;
+    width: 1em;
+    height: 1em;
+}
+label{
+    padding: 0 1em;
+    color: white;
+}
+.inputsss{
+    display: flex;
+    margin: 1em;
+    height: 100%;
+    width: 80%;
+}
+
+.complete center{
+    color: #5AE478;
+    background-color: transparent;
+}
+button:nth-child(2):hover {
+    background-color: #5AE478;
+}
+
+.completes {
+    background-color: #5AE478;
+}
+.completes center {
+    color: white;
+}
